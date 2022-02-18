@@ -2,17 +2,21 @@ STEM = qtl_in_mpp
 
 FIGS = Figs/intercross.pdf \
 	   Figs/lodcurve_insulin.pdf \
-	   Figs/data_fig.png
-#      Figs/hs.pdf \
-#	   Figs/ri8.pdf \
+	   Figs/data_fig.png \
+	   Figs/ail.pdf \
+	   Figs/risib.pdf \
+	   Figs/riself.pdf \
+	   Figs/hs.pdf \
+	   Figs/ri8.pdf \
+	   Figs/ri8self.pdf \
+	   Figs/do_genome.pdf \
+	   Figs/congenic.pdf
 #	   Figs/genome_reconstr.pdf \
 #	   Figs/qtl_scan.png \
-#	   Figs/do_genome.pdf \
 #	   Figs/hmm.pdf \
 #	   Figs/founder_pop.pdf \
 #	   Figs/cc_xchr_reconstr.pdf \
-#	   Figs/do_qtl.pdf \
-#	   Figs/ri8X.pdf
+#	   Figs/do_qtl.pdf
 
 R_OPTS=--no-save --no-restore --no-init-file --no-site-file
 
