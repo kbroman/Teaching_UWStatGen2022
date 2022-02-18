@@ -1,6 +1,7 @@
 STEM = qtl_in_mpp
 
-#FIGS = Figs/hs.pdf \
+FIGS = Figs/intercross.pdf
+#      Figs/hs.pdf \
 #	   Figs/ri8.pdf \
 #	   Figs/genome_reconstr.pdf \
 #	   Figs/qtl_scan.png \
