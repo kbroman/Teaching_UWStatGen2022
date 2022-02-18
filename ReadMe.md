@@ -4,6 +4,7 @@
 course BMI/Stat 877
 (Statistical methods for molecular biology) at [UW-Madison](http://wisc.edu).
 
+PDF slides [here](https://kbroman.org/Teaching_UWStatGen2022).
 
 ---
 
