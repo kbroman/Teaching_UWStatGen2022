@@ -1,7 +1,8 @@
 STEM = qtl_in_mpp
 
 FIGS = Figs/intercross.pdf \
-	   Figs/lodcurve_insulin.pdf
+	   Figs/lodcurve_insulin.pdf \
+	   Figs/data_fig.png
 #      Figs/hs.pdf \
 #	   Figs/ri8.pdf \
 #	   Figs/genome_reconstr.pdf \
