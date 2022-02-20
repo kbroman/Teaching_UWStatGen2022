@@ -7,6 +7,7 @@
 
 \input{header.tex}
 
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % end of header
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -215,12 +216,42 @@ Emission   & $e_i(g) = \text{Pr}(O_i \ | \ G_i = g)$
 \end{frame}
 
 
-\begin{frame}{Linear mixed model}
+\begin{frame}[c]{Linear mixed model}
+
+
+
+$$\begin{array}{lllcl@{\quad \qquad}l}
+  y_i & = & \mu \ + & \textstyle{{\vhilit \sum_k \beta_k q_{ik}}} & +
+  \ \epsilon_i
+               & \epsilon_i \sim \text{N}(0, \sigma^2_e) \\[24pt]
+  & = & \mu \ + & {\vhilit \eta_i} & + \ \epsilon_i & \eta_i \sim \text{N}(0, \sigma^2_p)
+\end{array}$$
+
+\vspace{10mm}
+
+$$\text{cov}(\eta_i, \eta_j) = \sigma^2_p \; (2 k_{ij})$$
 
 \end{frame}
 
 
-\begin{frame}[c]{LM vs LMM}
+
+\begin{frame}{Kinship and LOCO}
+
+  \bbi
+  \item kinship coefficient measures similarity of two individuals'
+    genomes
+  \item generally estimated from genotype data
+  \item generally using the ``leave one chromosome out (loco)'' method
+    \bi
+    \item Estimate kinship using all chromosomes except the one being
+      scanned
+   \ei
+   \ei
+\end{frame}
+
+
+
+\begin{frame}[c]{LM vs LMM vs LOCO}
 \figw{Figs/qtl_scan_loco.pdf}{1.0}
 \end{frame}
 
