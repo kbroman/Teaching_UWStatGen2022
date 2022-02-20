@@ -17,7 +17,8 @@ FIGS = Figs/intercross.pdf \
 	   Figs/genome_reconstr.pdf \
 	   Figs/hmm.pdf \
 	   Figs/qtl_scan.png \
-	   Figs/qtl_effects.pdf
+	   Figs/qtl_effects.pdf \
+	   Figs/qtl_scan_loco.pdf
 #	   Figs/founder_pop.pdf \
 #	   Figs/cc_xchr_reconstr.pdf \
 #	   Figs/do_qtl.pdf
@@ -38,5 +39,5 @@ Figs/%.pdf: R/%.R
 Figs/%.png: R/%.R
 	cd R;R CMD BATCH $(R_OPTS) $(<F)
 
-clean:
+pclean:
 	rm *.aux *.log *.nav *.out *.snm *.toc *.vrb
