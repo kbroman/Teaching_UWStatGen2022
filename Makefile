@@ -13,10 +13,10 @@ FIGS = Figs/intercross.pdf \
 	   Figs/congenic.pdf \
 	   Figs/permtest.pdf \
 	   Figs/perm_hist.pdf \
-	   Figs/lodsupint.pdf
-#	   Figs/genome_reconstr.pdf \
+	   Figs/lodsupint.pdf \
+	   Figs/genome_reconstr.pdf \
+	   Figs/hmm.pdf
 #	   Figs/qtl_scan.png \
-#	   Figs/hmm.pdf \
 #	   Figs/founder_pop.pdf \
 #	   Figs/cc_xchr_reconstr.pdf \
 #	   Figs/do_qtl.pdf

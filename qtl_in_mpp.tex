@@ -173,9 +173,30 @@
 
 
 \begin{frame}{Genotype reconstruction}
-
+\figw{Figs/genome_reconstr.pdf}{1.0}
 \end{frame}
 
+
+
+\begin{frame}{Hidden Markov model}
+
+\figw{Figs/hmm.pdf}{1.0}
+
+\bigskip
+
+{
+\centering
+\renewcommand{\arraystretch}{2.0}
+
+\begin{tabular}{l@{\hspace{1cm}}l}
+Initial    & $\pi(g) = \text{Pr}(G_1 = g)$ \\
+Transition & $t_i(g,g') = \text{Pr}(G_{i+1} = g' \ | \ G_i = g)$ \\
+Emission   & $e_i(g) = \text{Pr}(O_i \ | \ G_i = g)$
+\end{tabular}
+
+}
+
+\end{frame}
 
 
 \begin{frame}{Linear mixed model}
