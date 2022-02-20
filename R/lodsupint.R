@@ -3,7 +3,7 @@ library(qtl)
 bgcolor <- "white"
 color <- c("violetred", "slateblue")
 
-pdf(file="../Figs/lodsupint.pdf", width=9, height=6, pointsize=12, onefile=TRUE)
+pdf(file="../Figs/lodsupint.pdf", width=11, height=5, pointsize=12)
 par(fg="black",col="black",col.axis="black",col.lab="black", #bty="n",
     bg=bgcolor)#, cex.axis=1.5, cex.lab=1.5)
 

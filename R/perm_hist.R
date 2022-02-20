@@ -40,6 +40,6 @@ axis(line=-1, side=1)
 title(xlab="Genome-wide maximum LOD score", line=2)
 x <- rep(temp$breaks, rep(2, length(temp$breaks)))
 y <- c(0,rep(temp$counts, rep(2, length(temp$counts))),0)
-lines(x,y, col="darkslateblue")
+lines(x,y, col="darkslateblue", lwd=2)
 
 dev.off()

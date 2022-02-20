@@ -11,7 +11,7 @@ L <- summary(map10)[1:20,2]
 L[L<51] <- 51
 L[21] <- 10
 
-pdf(here("Figs/congenic.pdf"), width=9.75, height=5.5,
+pdf(here("Figs/congenic.pdf"), width=11, height=5.5,
     pointsize=16, onefile=TRUE)
 
 par(mar=rep(0.1,4),las=1,fg="black",col="black",col.axis="black",col.lab="black",
