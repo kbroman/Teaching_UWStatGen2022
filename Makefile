@@ -16,7 +16,8 @@ FIGS = Figs/intercross.pdf \
 	   Figs/lodsupint.pdf \
 	   Figs/genome_reconstr.pdf \
 	   Figs/hmm.pdf \
-	   Figs/qtl_scan.png
+	   Figs/qtl_scan.png \
+	   Figs/qtl_effects.pdf
 #	   Figs/founder_pop.pdf \
 #	   Figs/cc_xchr_reconstr.pdf \
 #	   Figs/do_qtl.pdf

@@ -8,3 +8,6 @@
 Figs/data_fig.png
 R/_cache/*.RData
 Figs/qtl_scan*.png
+R/_cache/probs.rds
+R/_cache/aprobs.rds
+QTLresults/kinship*
