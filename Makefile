@@ -11,7 +11,9 @@ FIGS = Figs/intercross.pdf \
 	   Figs/ri8self.pdf \
 	   Figs/do_genome.pdf \
 	   Figs/congenic.pdf \
-	   Figs/permtest.pdf
+	   Figs/permtest.pdf \
+	   Figs/perm_hist.pdf \
+	   Figs/lodsupint.pdf
 #	   Figs/genome_reconstr.pdf \
 #	   Figs/qtl_scan.png \
 #	   Figs/hmm.pdf \
